@@ -1,3 +1,4 @@
-title = "My New Hugo Site"
-baseurl = "http://example.org/"
+title = "Russell Hay"
+baseurl = "http://hire.russellhay.com/"
 languageCode = "en-us"
+theme = "resume"
