@@ -1,0 +1,77 @@
+@media print {
+  body, a, h1, h2, h3, h4, h5, h6, p, div, section, article, img, ul, li {
+    font-size: 12pt;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  a {
+    color: black;
+  }
+
+  #contact {
+    list-style: none;
+
+    li {
+      position: relative;
+      padding-left: 20px;
+    }
+
+    label {
+      top: 1px;
+      left: 0;
+
+      &.small {
+        left: 2px;
+      }
+
+      &.offset {
+        top: 2px;
+      }
+    }
+  }
+
+  .major {
+    max-width: none;
+    margin-bottom: 3em;
+
+    & > header {
+      top: 0;
+      font-size: 1.25rem;
+      width: 10em;
+
+      h1 {
+        padding-right: 2em;
+        color: black;
+      }
+    }
+
+    & > article, & > ul {
+      padding-left: 12rem;
+    }
+
+    & > article {
+
+      h1 {
+        font-size: 1.25rem;
+      }
+
+      ul {
+        margin-left: 1em;
+      }
+    }
+
+  }
+
+  .job {
+    margin-bottom: 1.5rem;
+
+
+    &.short {
+      margin-bottom: 1rem;
+    }
+  }
+}

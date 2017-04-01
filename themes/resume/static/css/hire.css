@@ -6,7 +6,6 @@ body, a, h1, h2, h3, h4, h5, h6, p, div, section, article, img, ul, li {
   font-weight: normal; }
 
 body {
-  background: #aaa;
   font-size: 100%;
   font-family: "futura-pt",sans-serif;
   margin-top: 1rem;
@@ -41,7 +40,6 @@ body {
       font-size: inherit;
       text-transform: uppercase;
       padding-right: 2em;
-      color: grey;
       font-weight: 800; }
   .major > article, .major > ul {
     padding-left: 19rem; }
@@ -63,5 +61,62 @@ body {
     margin-bottom: 1rem; }
     .job.short h1 {
       font-size: inherit; }
+
+body {
+  background: white;
+  color: black; }
+
+a, a:visited {
+  color: #089145;
+  text-decoration: none; }
+
+.major > header h1 {
+  color: #910854; }
+
+@media print {
+  body, a, h1, h2, h3, h4, h5, h6, p, div, section, article, img, ul, li {
+    font-size: 12pt; }
+
+  body {
+    background: white;
+    color: black; }
+
+  a {
+    color: black; }
+
+  #contact {
+    list-style: none; }
+    #contact li {
+      position: relative;
+      padding-left: 20px; }
+    #contact label {
+      top: 1px;
+      left: 0; }
+      #contact label.small {
+        left: 2px; }
+      #contact label.offset {
+        top: 2px; }
+
+  .major {
+    max-width: none;
+    margin-bottom: 3em; }
+    .major > header {
+      top: 0;
+      font-size: 1.25rem;
+      width: 10em; }
+      .major > header h1 {
+        padding-right: 2em;
+        color: black; }
+    .major > article, .major > ul {
+      padding-left: 12rem; }
+    .major > article h1 {
+      font-size: 1.25rem; }
+    .major > article ul {
+      margin-left: 1em; }
+
+  .job {
+    margin-bottom: 1.5rem; }
+    .job.short {
+      margin-bottom: 1rem; } }
 
 /*# sourceMappingURL=hire.css.map */

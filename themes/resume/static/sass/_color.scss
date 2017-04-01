@@ -1,0 +1,26 @@
+$color-1: #990055;
+$color-2: saturate(adjust_hue($color-1, 180), 25%);
+
+$primary: mix($color-1, $color-2, 95%);
+$secondary: mix($color-1, $color-2, 5%);
+$neutral: mix($primary, $secondary, 50%);
+$neutral-light: lighten($neutral, 70%);
+$neutral-dark: darken($neutral, 50%);
+
+body {
+  background: $neutral-light;
+  color: $neutral-dark;
+}
+
+a, a:visited {
+  color: $secondary;
+  text-decoration: none;
+}
+
+.major {
+  & > header {
+    h1 {
+      color: $primary;
+    }
+  }
+}
