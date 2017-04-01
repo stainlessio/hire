@@ -6,6 +6,7 @@
   body {
     background: white;
     color: black;
+    margin: 1rem;
   }
 
   a {
@@ -36,7 +37,7 @@
 
   .major {
     max-width: none;
-    margin-bottom: 3em;
+    margin-bottom: 1em;
 
     & > header {
       top: 0;

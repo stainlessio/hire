@@ -11,6 +11,9 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem; }
 
+#nameplate > article {
+  display: flex; }
+
 #contact {
   list-style: none; }
   #contact li {
@@ -79,7 +82,8 @@ a, a:visited {
 
   body {
     background: white;
-    color: black; }
+    color: black;
+    margin: 1rem; }
 
   a {
     color: black; }
@@ -99,7 +103,7 @@ a, a:visited {
 
   .major {
     max-width: none;
-    margin-bottom: 3em; }
+    margin-bottom: 1em; }
     .major > header {
       top: 0;
       font-size: 1.25rem;

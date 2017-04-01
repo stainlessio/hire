@@ -1,0 +1,41 @@
+ Russell  Hay
+   Profile
+Experience
+T 206.856.8296
+E russell.hay@gmail.com
+russellhay.com github.com/RussTheAerialist bitbucket.org/russellhay
+I am a highly motivated and creative software engineer who likes to straddle the full stack, from kernel development to enterprise-scale service-oriented systems. My favorite language and strongest current language is Python, but I consider myself a polyglot with strong experience in C++, C#, and Javascript also.
+Senior Software Engineer - Tableau Software, 2012 - Current
+• Refactored legacy server code to utilize command pattern for lower coupling and improved separation of concerns.
+• Cleaned up SWIG interop layer to expose only what classes are used.
+• Built the client portion of ambient data radiators used on displays throughout the office.
+• Developed a SOA-based workflow tool for open data gathering and storage that combines
+multiple technologies and operating systems into a coherent system for managing and
+collecting data sets across the organization and from across the internet.
+• Developed a continuous delivery/integration toolset that allowed simple definitions of
+workflows, and exit conditions to define the process for build, test, and release.
+• Developed a system for visually tracking foosball games as part of a hackathon to generate
+data on player style and win rates.
+Manager, Test Engineering - Tableau Software, 2011 - 2012
+• Led the growth of the test engineering organization at Tableau from 3 employees to 22 employees in a six month period.
+• Designed and provided guidance on implementation of a test framework and automated test suite that grew from zero tests to covering 40% of the product.
+SDET II, Microsoft, 2007 - 2011
+• Implemented and designed test execution harness (LATCH) that ran all unit tests scenario tests, and end-to-end tests across all of the Windows Live Division, and parts of the Windows Division.
+• Provided Guidance and best practices for test development across the division.
+• Designed centralized javascript testing harness for production sites.
+• Division subject matter expert on Microsoft Updates
+  Other Experience
+Patents
+Skills References
+Lead SDET, RealNetworks, 2006 - 2007
+Software Development Engineer, RealNetworks, 2005-2006
+Contract Software Test Engineer, RealNetworks, 2004-2005
+Cellular Technical Troubleshooter, Western Wireless, 2003-2004
+Head of Development, ActiveX Security Software, Steelgate Systems, 2002 Contract Software Engineer, Player Lobby Server, Firebyte Studios, 2002
+Core Systems Engineer, FreeBSD-based virtual server system, Hostpro, 1999-2002 System Administrator, Intersurf, Inc., 1997-1999
+Systems Administrator, cajun.net, 1995-1997
+Speaker, Pitfalls of Hardware to Avoid, NodeConf, 2012 Technical Director, Circus of Dreams, 2008-2011 Cinematographer, “Kneading Flesh”, 48 Hour Film Project, 2014 Aerial Instructor, Knotty Yoga, 2013
+6,871,347 - Method and apparatus for facilitating load balancing across name servers 6,813,766 - Method and apparatus for scheduling processes based upon virtual server
+identifiers
+Python, C++, Arduino, Javascript, Bash, Zsh, Linux, Unix, Posix, FreeBSD Kernel, RabbitMQ/ AMQP, ZeroMQ, Rails (familiar), Ruby (familiar), Go (familiar)
+Available upon request

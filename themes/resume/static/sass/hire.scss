@@ -12,6 +12,10 @@ body {
   margin-bottom: 1rem;
 }
 
+#nameplate > article {
+  display: flex;
+}
+
 #contact {
   list-style: none;
 

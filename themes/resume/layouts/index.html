@@ -1,12 +1,19 @@
 {{ partial "header.html" . }}
 <section class="major" id="nameplate">
     <header><h1>{{ .Title }}</h1></header>
-    <ul id="contact">
-        {{ range $type, $value := .Site.Data.frontmatter.contact }}
-        {{ $partial := $type | printf "%s.html" }}
-        <li>{{ partial $partial $value }}</li>
-        {{ end }}
-    </ul>
+    <article>
+        <div id="leadin">
+            {{ with .Site.GetPage "section" "leadin"}}
+            {{ .Content }}
+            {{ end }}
+        </div>
+        <ul id="contact">
+            {{ range $type, $value := .Site.Data.frontmatter.contact }}
+            {{ $partial := $type | printf "%s.html" }}
+            <li>{{ partial $partial $value }}</li>
+            {{ end }}
+        </ul>
+    </article>
 </section>
 <section class="major" id="history">
     <header><h1>Experience</h1></header>
