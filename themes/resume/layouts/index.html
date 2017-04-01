@@ -1,5 +1,5 @@
 {{ partial "header.html" . }}
-<section id="nameplate">
+<section class="major" id="nameplate">
     <header><h1>{{ .Title }}</h1></header>
     <ul id="contact">
         {{ range $type, $value := .Site.Data.frontmatter.contact }}
@@ -11,15 +11,7 @@
 <section class="major" id="history">
     <header><h1>Experience</h1></header>
     {{ range .Pages }}
-    <article class="job{{ if not (isset .Params "shortEntry") }} short{{ end }}">
-        <header><h1><span class="job-title">{{ .Title }}</span> -
-        <span class="company">{{ .Params.company}}</span> -
-        <span class="range">{{ dateFormat "2006" .Date }} - {{ if isset .Params "endDate"}}{{ dateFormat "2006" .Params.endDate }}{{ else }}Current{{ end }}</span></h1>
-        </header>
-        {{ if not (isset .Params "shortEntry") }}
-        <div class="summary">{{ .Content }}</div>
-        {{ end }}
-    </article>
+        {{ partial "job.html" . }}
     {{ end }}
 </section>
 {{ range $title, $data := .Site.Data.other }}
@@ -27,14 +19,14 @@
     <header><h1>{{ $title }}</h1></header>
     <ul>
         {{ range $data }}
-        <li>{{ . }}</li>
+        <li>{{ . | safeHTML }}</li>
         {{ end }}
     </ul>
 </section>
 {{ end }}
 <section class="major" id="skills">
     <header><h1>Skills</h1></header>
-    <article>{{ delimit .Site.Data.skills ", " ", and " }}</article>
+    <article>{{ delimit (sort .Site.Data.skills) ", " ", and " }}</article>
 </section>
 <section class="major" id="references">
     <header><h1>References</h1></header>

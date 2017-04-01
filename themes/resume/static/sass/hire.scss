@@ -1,0 +1,101 @@
+body, a, h1, h2, h3, h4, h5, h6, p, div, section, article, img, ul, li {
+  box-sizing: border-box;
+  margin: 0; padding: 0;
+  font-size: 14pt;
+  font-weight: normal;
+}
+
+body {
+  background: #aaa;
+  font-size: 100%;
+  font-family: "futura-pt",sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#contact {
+  list-style: none;
+
+  li {
+    position: relative;
+    padding-left: 20px;
+  }
+
+  label {
+    position: absolute;
+    top: 1px;
+    left: 0;
+
+    &.small {
+      left: 2px;
+    }
+
+    &.offset {
+      top: 2px;
+    }
+  }
+}
+
+.major {
+  position: relative;
+  max-width: 70rem;
+  margin: auto;
+  margin-bottom: 3em;
+
+  & > header {
+    position: absolute;
+    top: -.25rem;
+    font-size: 2rem;
+    width: 10em;
+    text-align: right;
+
+    h1 {
+      font-size: inherit;
+      text-transform: uppercase;
+      padding-right: 2em;
+      color: grey;
+      font-weight: 800;
+    }
+  }
+
+  & > article, & > ul {
+    padding-left: 19rem;
+  }
+
+  & > article {
+
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: square;
+      list-style-position: outside;
+      margin-left: 1em;
+    }
+  }
+
+  & > ul {
+    list-style-type: none;
+  }
+}
+
+.job {
+  margin-bottom: 1.5rem;
+
+  .range, .company {
+    font-weight: normal;
+  }
+
+  &.short {
+    h1 {
+      font-size: inherit;
+    }
+
+    margin-bottom: 1rem;
+  }
+}
+
+@import "color";
+@import "print";

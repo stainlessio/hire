@@ -10,4 +10,4 @@ ROOT="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
 . ${ROOT}/common.sh
 cd ${ROOT}
 trap 'kill %1' SIGINT
-hugo server ${HUGO_DEV_OPTS} & sass --watch ${SASS_SOURCE}:${SASS_DESTINTATION} ${SASS_OPTS}
+hugo server ${HUGO_DEV_OPTS} & sass --watch ${SASS_SOURCE}:${SASS_DESTINATION} ${SASS_OPTS}

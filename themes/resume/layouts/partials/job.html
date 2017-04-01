@@ -1,0 +1,15 @@
+<article class="job{{ if (isset .Params "shortentry") }} short{{ end }}">
+<header><h1><span class="job-title">{{ .Title }}</span>,
+    <span class="company">{{ .Params.company}}</span>,
+    <span class="range">{{ if (isset .Params "shortentry") }}
+        {{ dateFormat "2006" .Date }}{{ if isset .Params "enddate"}} - {{ dateFormat "2006" .Params.enddate }}{{ end }}
+    {{ else }}
+    {{ dateFormat "2006" .Date }} - {{ if isset .Params "enddate"}}{{ dateFormat "2006" .Params.enddate }}{{ else }}Current{{ end }}
+    {{ end }}</span></h1>
+</header>
+{{ if not (isset .Params "shortentry") }}
+<div class="summary">{{ .Content }}</div>
+{{ else if isset .Params "summary" }}
+<div class="summary">{{ .Params.summary }}</div>
+{{ end }}
+</article>

@@ -1,0 +1,67 @@
+body, a, h1, h2, h3, h4, h5, h6, p, div, section, article, img, ul, li {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 14pt;
+  font-weight: normal; }
+
+body {
+  background: #aaa;
+  font-size: 100%;
+  font-family: "futura-pt",sans-serif;
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+#contact {
+  list-style: none; }
+  #contact li {
+    position: relative;
+    padding-left: 20px; }
+  #contact label {
+    position: absolute;
+    top: 1px;
+    left: 0; }
+    #contact label.small {
+      left: 2px; }
+    #contact label.offset {
+      top: 2px; }
+
+.major {
+  position: relative;
+  max-width: 70rem;
+  margin: auto;
+  margin-bottom: 3em; }
+  .major > header {
+    position: absolute;
+    top: -.25rem;
+    font-size: 2rem;
+    width: 10em;
+    text-align: right; }
+    .major > header h1 {
+      font-size: inherit;
+      text-transform: uppercase;
+      padding-right: 2em;
+      color: grey;
+      font-weight: 800; }
+  .major > article, .major > ul {
+    padding-left: 19rem; }
+  .major > article h1 {
+    font-size: 1.5rem;
+    font-weight: 600; }
+  .major > article ul {
+    list-style: square;
+    list-style-position: outside;
+    margin-left: 1em; }
+  .major > ul {
+    list-style-type: none; }
+
+.job {
+  margin-bottom: 1.5rem; }
+  .job .range, .job .company {
+    font-weight: normal; }
+  .job.short {
+    margin-bottom: 1rem; }
+    .job.short h1 {
+      font-size: inherit; }
+
+/*# sourceMappingURL=hire.css.map */
