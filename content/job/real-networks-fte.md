@@ -4,7 +4,7 @@ endDate="2007-01-01"
 company="Real Networks"
 shortentry="True"
 title="Software Engineer"
-summary="Focused on test and build tools and introduced SCRUM to the team."
+summary="Test and build tools and introduced SCRUM to the team."
 +++
 * Provided support for python-based build system utilized by entire dev and test team.
 * Led Implemention of SCRUM to develop a test automation harness for server development.
