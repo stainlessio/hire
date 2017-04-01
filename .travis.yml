@@ -9,7 +9,7 @@ install:
   - go get -u -v github.com/spf13/hugo
   - cd $GOPATH/src/github.com/spf13/hugo && govendor sync && go install
 script:
-  - cd $GOPATH/src/github.com/stainless/hire
+  - cd $GOPATH/src/github.com/stainlessio/hire
   - hugo
 
 notifications:
