@@ -1,0 +1,5 @@
+<!--<meta property="og:image" content="http://linktoyourimage.com/image.jpg" />-->
+<meta property="og:title" content="{{ .Title }}" />
+{{ with .Site.GetPage "section" "leadin"}}
+<meta property="og:description" content="{{ .Content | plainify }}" />
+{{ end }}
