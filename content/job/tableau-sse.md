@@ -1,5 +1,6 @@
 +++
 date="2012-01-01T00:00:00Z"
+endDate="2018-01-01T00:00:00Z"
 title="Senior Software Engineer"
 company="Tableau"
 +++
