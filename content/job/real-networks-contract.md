@@ -6,4 +6,4 @@ shortentry="True"
 title="Contract Software Test Engineer"
 summary="Tested the Real Streaming Media Server."
 +++
-* Wrote and executed test plans for a number of features for the Real Streaming Media Server.
+* Wrote and executed test plans for several features for the Real Streaming Media Server.

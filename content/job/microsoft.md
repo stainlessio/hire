@@ -4,7 +4,7 @@ date="2007-01-01T00:00:00Z"
 title="SDET II"
 company="Microsoft"
 +++
-* Implemented and designed test execution harness in C#, C++ and Javascript (LATCH) that ran all
+* Implemented and designed test execution harness in C#, C++, and Javascript (LATCH) that ran all
 unit tests, scenario tests, and end-to-end tests across all of the Windows Live Division,
 and parts of the Windows Division. Tests could be written in C#, C++, and Javascript and worked
 with classic win32 and modern apps.
