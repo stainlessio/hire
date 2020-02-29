@@ -26,4 +26,4 @@ _testmain.go
 .idea
 .sass-cache
 deploy.rsa
-
+public

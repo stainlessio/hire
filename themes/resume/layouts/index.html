@@ -17,8 +17,10 @@
 </section>
 <section class="major" id="history">
     <header><h1>Experience</h1></header>
-    {{ range .Pages }}
+    {{ with .Site.GetPage "section" "job" }}
+      {{ range .Pages }}
         {{ partial "job.html" . }}
+      {{ end }}
     {{ end }}
 </section>
 {{ range $title, $data := .Site.Data.other }}

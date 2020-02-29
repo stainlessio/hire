@@ -1,7 +1,7 @@
 +++
 +++
-I consider myself a polyglot programmer who enjoys the
-challenge of working across many different languages as needed. My ideal job is one that allows me to
-utilize modern development methodologies to delivery high quality software while maintaining agility.
-Whether a project is end-user focused or deep in a network stack, I enjoy diving deep into a problem
-space.
+I am a polyglot programmer who enjoys the challenges of working across many domains and languages as
+the problem requires. My ideal job is one that allows me to utilize modern development techniques to
+deliver high quality software whie maintaining agility and discipline. Whether a project is end-user
+focused or deep in a network stack, I enjoy diving into a proble space and delivering creative solutions
+that solve the problem with as little complexity as needed.
