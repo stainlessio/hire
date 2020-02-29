@@ -1,14 +1,8 @@
 addons:
   ssh_known_hosts: russellhay.com
 
-language: go
-go:
-- "1.10.x"
-install:
-  - go get -u -v github.com/spf13/hugo
 script:
-  - cd $GOPATH/src/github.com/stainlessio/hire
-  - hugo
+  - ./hugo
 
 notifications:
   email:
