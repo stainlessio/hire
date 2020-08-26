@@ -15,7 +15,7 @@ the hackathon.
 * Acted as the Security Champion for the developer platform, providing oversight, guidance, and code
 reviews with an eye for information disclosures, insecure coding practices, and possible
 exploits. Facilitated formal security reviews with the corporate security team.
-* Refactored legacy c++ and java server code to the command pattern for lower coupling and
+* Refactored legacy C++ and java server code to the command pattern for lower coupling and
 improved separation of concerns.
 * Designed and built C++/QT front-end for a data radiator utilizing 100% pair programming to help
 mentor a more junior developer on C++.
